@@ -1,0 +1,13 @@
+layout {
+    pane split_direction="vertical" {
+        pane split_direction="horizontal" {
+            pane size="70%" cwd="~"
+            pane size="30%" cwd="~"
+        }
+        pane cwd="~"
+    }
+
+    /*pane size=2 borderless=true {
+        plugin location="zellij:status-bar"
+    }*/
+}
