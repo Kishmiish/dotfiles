@@ -109,5 +109,4 @@ alias tmux=tmux_default
 [[ -f /home/Kishmish/.dart-cli-completion/zsh-config.zsh ]] && . /home/Kishmish/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
 
-## tmux
-## clear
+alias gs='git status'

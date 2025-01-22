@@ -18,7 +18,7 @@ config.color_scheme = "wilmersdorf"
 -- config.window_background_image = "/home/Kishmish/Pictures/Wallpapers/B&W.jpg"
 -- config.window_background_image = "/home/Kishmish/Pictures/Wallpapers/BlackHole.jpg"
 
-local dimmer = { brightness = 0.2 }
+local dimmer = { brightness = 0.05 }
 
 config.background = {
 	{
@@ -28,7 +28,8 @@ config.background = {
 	},
 	{
 		source = {
-			File = "/home/Kishmish/Pictures/Wallpapers/BlackHole.jpg",
+			--File = "/home/Kishmish/Pictures/Wallpapers/BlackHole.jpg",
+			File = "/home/Kishmish/Pictures/Wallpapers/B&W.jpg",
 		},
 		hsb = dimmer,
 	},
